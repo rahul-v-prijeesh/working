@@ -146,7 +146,7 @@ function m(sh)
 }
 function games(){
  var levelw=level
- image(c1,300,300,100,100)
+ 
   switch(level)
  {
    case 1: correct.add(a1)
@@ -166,9 +166,9 @@ function games(){
  case 1:wrong.add(a)
         wrong.add(a2)
         wrong.add(a5)
-         a.adddImage(c1)
-           a2.addImage(c2)
-   a3.addImage(s1)
+    image(c1,a.position.x,a.position.y)
+   image(c2,a2.position.x,a2.position.y)
+   image(s1,a5.position.x,a5.position.y)
         break
  case 2: wrong.add(a1)
          wrong.remove(a2)
