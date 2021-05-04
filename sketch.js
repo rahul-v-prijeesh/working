@@ -54,9 +54,7 @@ s1=loadImage("dice1.png")
    correct=createGroup()
    t=createSprite(width/2,height/2,width,height)
    t.visible=false
-   a.addImage(c1)
-   a2.addImage(c2)
-   a5.adImage(s1)
+  
    //t.addImage()
  }
 
@@ -145,6 +143,7 @@ function m(sh)
 }
 function games(){
  var levelw=level
+ image(c1,300,300,100,100)
   switch(level)
  {
    case 1: correct.add(a1)
