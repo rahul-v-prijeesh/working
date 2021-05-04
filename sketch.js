@@ -11,6 +11,9 @@ var wrong
  var lastba
  var l
  var t
+ var c1,c2,c3,c4,c5
+ var s1,s2,s3,s4,s5
+ var t1,t2,t3,t4,t5
  function preload() {
       //triangle
 
@@ -163,7 +166,9 @@ function games(){
  case 1:wrong.add(a)
         wrong.add(a2)
         wrong.add(a5)
-  
+         a.adddImage(c1)
+           a2.addImage(c2)
+   a3.addImage(s1)
         break
  case 2: wrong.add(a1)
          wrong.remove(a2)
