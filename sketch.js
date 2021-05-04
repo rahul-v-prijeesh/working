@@ -21,6 +21,12 @@ var wrong
 s=loadSound("scor.wav")
 l=loadSound("las.wav")
 lastba=loadImage("l.jpg")
+ c1=loadImage("Ccake.png")
+c2=loadImage("clock.png")
+c3=loadImage("globepng")
+c4=loadImage("yoyo.png")
+s1=loadImage("dice1.png")
+
  }
 
  function setup()
@@ -155,6 +161,9 @@ function games(){
  case 1:wrong.add(a)
         wrong.add(a2)
         wrong.add(a5)
+   a.addImage(c1)
+   a2.addImage(c2)
+   a5.adImage(s1)
         break
  case 2: wrong.add(a1)
          wrong.remove(a2)
