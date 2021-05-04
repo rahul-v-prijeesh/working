@@ -54,6 +54,9 @@ s1=loadImage("dice1.png")
    correct=createGroup()
    t=createSprite(width/2,height/2,width,height)
    t.visible=false
+   a.addImage(c1)
+   a2.addImage(c2)
+   a5.adImage(s1)
    //t.addImage()
  }
 
@@ -161,9 +164,7 @@ function games(){
  case 1:wrong.add(a)
         wrong.add(a2)
         wrong.add(a5)
-   a.addImage(c1)
-   a2.addImage(c2)
-   a5.adImage(s1)
+  
         break
  case 2: wrong.add(a1)
          wrong.remove(a2)
