@@ -23,7 +23,7 @@ l=loadSound("las.wav")
 lastba=loadImage("l.jpg")
  c1=loadImage("Ccake.png")
 c2=loadImage("clock.png")
-c3=loadImage("globepng")
+c3=loadImage("globe.png")
 c4=loadImage("yoyo.png")
 s1=loadImage("dice1.png")
 
